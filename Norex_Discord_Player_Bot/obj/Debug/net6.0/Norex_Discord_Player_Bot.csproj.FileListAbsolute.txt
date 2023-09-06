@@ -29,3 +29,4 @@ C:\Users\Ali\source\repos\Norex_Discord_Player_Bot\Norex_Discord_Player_Bot\obj\
 C:\Users\Ali\source\repos\Norex_Discord_Player_Bot\Norex_Discord_Player_Bot\obj\Debug\net6.0\Norex_Discord_Player_Bot.pdb
 C:\Users\Ali\source\repos\Norex_Discord_Player_Bot\Norex_Discord_Player_Bot\obj\Debug\net6.0\Norex_Discord_Player_Bot.genruntimeconfig.cache
 C:\Users\Ali\source\repos\Norex_Discord_Player_Bot\Norex_Discord_Player_Bot\obj\Debug\net6.0\ref\Norex_Discord_Player_Bot.dll
+C:\Users\Ali\source\repos\Norex_Discord_Player_Bot\Norex_Discord_Player_Bot\bin\Debug\net6.0\token.txt
