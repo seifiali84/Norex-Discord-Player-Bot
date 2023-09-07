@@ -1,5 +1,7 @@
 ﻿using DSharpPlus;
+using DSharpPlus.CommandsNext;
 using DSharpPlus.SlashCommands;
+using DSharpPlus.VoiceNext;
 using System;
 using System.Threading.Tasks;
 
@@ -26,11 +28,17 @@ namespace Norex_Discord_Player_Bot
                     Console.WriteLine(e.Message.Content);
                 }
                 Console.WriteLine(e.Message.Content.Length);
-                Console.WriteLine(e.MentionedUsers.First().Username);
             };
             var slash = discord.UseSlashCommands();
-            slash.RegisterCommands<SlashCommands>();
+            discord.UseVoiceNext();
+            //var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
+            //{
+            //    StringPrefixes = new[] { "/" }
+            //});
 
+
+            slash.RegisterCommands<SlashCommands>();
+            //commands.RegisterCommands<Commands>();
             await discord.ConnectAsync();
 
             await Task.Delay(-1);
